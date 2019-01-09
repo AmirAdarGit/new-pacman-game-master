@@ -44,7 +44,7 @@ import Threads.ThreadPlayer;
 //import Threads.ThreadPlayer;/*לשנות כדי שמטלה 3 תעבוד*/
 
 public class pacmanBoard extends JFrame implements MouseListener , ComponentListener {
-
+//amir adar
 	double azimuth[]= {0,0,0};
 	private JPanel contentPane;
 	public	 int WIDTH = 1433 ;/*1433*/
@@ -519,16 +519,16 @@ public class pacmanBoard extends JFrame implements MouseListener , ComponentList
 		}
 	}
 
-	public void clearScreen() {
-		ex4Game.clear();
-		Paths.clear();
-		pacmans.clear();
-		fruits.clear();
-		ghosts.clear();
-		boxes.clear();
-		revalidate();
-		repaint();
-	}
+//	public void clearScreen() {
+//		ex4Game.clear();
+//		Paths.clear();
+//		pacmans.clear();
+//		fruits.clear();
+//		ghosts.clear();
+//		boxes.clear();
+//		revalidate();
+//		repaint();
+//	}
 	public Game getGame()
 	{
 		return ex4Game ;
